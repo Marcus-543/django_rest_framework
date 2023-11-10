@@ -1,0 +1,40 @@
+# Arquivos gerados automaticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de migração do Django
+db.sqlite3
+/migrations/
+/migrations/*.py
+/migrations/*.pyc
+
+# Arquivos de coleta estática (se você estiver usando)
+/staticfiles/
+/static_root/
+
+# Logs
+*.log
+
+# Arquivos de banco de dados, se você estiver usando algo diferente de SQLite
+*.db
+
+# Arquivos de configuração local (como settings.py com configurações sensíveis)
+/local_settings.py
+
+# Arquivos de mídia (faça ajustes de acordo com suas configurações)
+media/
+
+# Arquivos de configuração do IDE (por exemplo, Visual Studio Code)
+.vscode/
+.idea/
+
+# Outros arquivos e diretórios específicos do seu projeto (personalize conforme necessário)
